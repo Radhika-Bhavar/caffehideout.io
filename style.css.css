@@ -1,0 +1,95 @@
+/* ***********Templet css************* */
+
+:root {
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+
+
+.nav-link {
+
+
+    color: white !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 1.4rem;
+
+
+
+}
+
+.navbar-brand {
+
+
+    color: rgb(234, 170, 51) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+
+
+.nav-link:hover {
+
+
+
+
+    color: rgb(239, 170, 43) !important
+
+
+}
+
+.bhavar1 {
+
+    border-radius: 20rem !important;
+
+    /* @keyframes radhika {
+        
+    }
+
+
+animation-duration: 4s !important;
+animation-direction: reverse !important ;
+opacity: 0.8; */
+
+}
+
+.hero-header img {
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.radhikab {
+    border-radius: 15rem !important;
+
+}
+
+
+
+
+
+/* ........SERVICES STARTS........ */
+
+
+
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.service-item:hover {
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: rgb(248, 245, 241) !important;
+    background-color: rgb(204, 87, 10) !important;
+}
